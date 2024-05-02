@@ -1,0 +1,26 @@
+.task-list{
+  width: 900px;
+}
+
+.task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item.started {
+    background-color: #977f44;
+  }
+  
+  .task-item.completed {
+    background-color: #075207;
+  }
+  
+  .task-actions {
+    margin-top: 10px;
+  }
+  
+  .task-actions button {
+    margin-right: 10px;
+  }
+  
