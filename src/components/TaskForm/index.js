@@ -58,7 +58,7 @@ class TaskForm extends Component {
     event.preventDefault();
     if (this.validateForm()) {
       // Send task data to backend
-      fetch('http://localhost:9090/tasks', {
+      fetch('https://epicmax-server.onrender.com/tasks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
